@@ -190,6 +190,10 @@ type ExtendedRuntime struct {
 	RuntimeInterval          int    `json:"runtimeInterval"`
 	ActualTemperature        int    `json:"actualTemperature"`
 	ActualHumidity           int    `json:"actualHumidity"`
+	ActualVoc                int    `json:"actualVOC"`
+	ActualCo2                int    `json:"actualCO2"`
+	ActualAQScore            int    `json:"actualAQScore"`
+	ActualAQAccuracy         int    `json:"actualAQAccuracy"`
 	DesiredHeat              int    `json:"desiredHeat"`
 	DesiredCool              int    `json:"desiredCool"`
 	DesiredHumidity          int    `json:"desiredHumidity"`
@@ -397,6 +401,10 @@ type Runtime struct {
 	RuntimeInterval    int    `json:"runtimeInterval"`
 	ActualTemperature  int    `json:"actualTemperature"`
 	ActualHumidity     int    `json:"actualHumidity"`
+	ActualVoc          int    `json:"actualVOC"`
+	ActualCo2          int    `json:"actualCO2"`
+	ActualAQScore      int    `json:"actualAQScore"`
+	ActualAQAccuracy   int    `json:"actualAQAccuracy"`
 	DesiredHeat        int    `json:"desiredHeat"`
 	DesiredCool        int    `json:"desiredCool"`
 	DesiredHumidity    int    `json:"desiredHumidity"`
