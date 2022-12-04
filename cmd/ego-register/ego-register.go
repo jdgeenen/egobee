@@ -8,7 +8,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/cfunkhouser/egobee"
+	"github.com/jdgeenen/egobee"
 )
 
 const (

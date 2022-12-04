@@ -1,4 +1,4 @@
-module github.com/cfunkhouser/egobee
+module github.com/jdgeenen/egobee
 
 go 1.12
 

@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/cfunkhouser/egobee"
+	"github.com/jdgeenen/egobee"
 )
 
 var (
